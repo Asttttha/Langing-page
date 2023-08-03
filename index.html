@@ -1,0 +1,72 @@
+<!-- Create an interactive navigation menu that changes color or style when scrolled or when hovering over a menu item. The navigation menu should have a fixed position and be visible on all pages. Use HTML to structure the menu, CSS to style it, and JavaScript to add interactivity, such as changing the background color or font color of the menu when it is scrolled or when a menu item is hovered over -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+    <title>Responsive Landing Page</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" class="logo">
+        <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#find_counsellor">Find counsellor</a>
+                <a href="#know_more">Know more</a>
+                <a href="#contact_us">Contact us</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home_content">
+            <h1>Find yourself the right counsellor!</h1>
+            <br><br>
+            <a href="#">Visit</a>
+        </div>
+    </section>
+    <section id="find_counsellor" class="find_counsellor">
+        <div class="find_counsellor_content">Here are some top rated counsellors!</div>
+        
+        <div class="find_counsellor_imgs">
+            <a href="#" class="find_counsellor_img">
+                <img src="images/find_counsellor_imgs/profile.png" alt="">
+            </a>
+            <a href="#" class="find_counsellor_img">
+                <img src="images/find_counsellor_imgs/profile.png" alt="">
+            </a>
+            <a href="#"  class="find_counsellor_img">
+                <img src="images/find_counsellor_imgs/profile.png" alt="">
+            </a>
+        </div>
+    </section>
+    <section id="know_more" class="know_more">
+        <img class="img" src="images/aboutus.jpg" alt="">
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi labore perferendis iusto libero cupiditate voluptatum eius excepturi maxime dolores minima iste, voluptatibus aliquam laudantium velit, nam tempore. Soluta, quaerat in. Eligendi dolore nemo repellat, hic accusamus aut eveniet tenetur corrupti vel. Perspiciatis necessitatibus odio, officiis temporibus eos sunt facere. Ratione repellat veniam perferendis quas minus officiis quae nemo asperiores laboriosam temporibus doloribus quis, adipisci sequi incidunt sunt laborum impedit! Totam quisquam eos, eum, corporis laboriosam voluptates non, quia accusamus voluptatem omnis porro! Dignissimos alias, eos sint quae sed accusamus impedit dolore obcaecati provident, minima dolorum laudantium quibusdam! Esse, vero tenetur.
+
+            <br><br>
+
+            <input type="submit" value="Read more" name="submit" id="submit">
+        </div>
+        
+    </section>
+    <section id="contact_us">
+        <div class="contact_us">
+            <form action="#home" class="contact__form">
+                <input type="text"required placeholder="Name" class="contact__input">
+                <input type="mail" required placeholder="Email" class="contact__input">
+                <textarea name="" id="" cols="5" rows="5" required placeholder="Tap to start writing." class="contact__input"></textarea>
+                <input type="submit" value="Confirm" name="submit" id="submit">
+            </form>
+        </div>
+    </section>
+    
+</body>
+
+
+<script src="script.js"></script>
+</html>
